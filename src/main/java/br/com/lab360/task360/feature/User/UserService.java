@@ -1,5 +1,6 @@
 package br.com.lab360.task360.feature.User;
 
+import br.com.lab360.task360.data.entity.UserEntity;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.Getter;
