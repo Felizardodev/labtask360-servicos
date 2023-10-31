@@ -2,10 +2,12 @@ package br.com.lab360.task360.feature.Anexo;
 
 import br.com.lab360.task360.data.entity.AnexosEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Component
 @Service
 public class AnexosService {
 
