@@ -3,7 +3,10 @@ package br.com.lab360.task360.feature.Quadro;
 import br.com.lab360.task360.data.entity.AnexosEntity;
 import br.com.lab360.task360.data.entity.QuadroEntity;
 import br.com.lab360.task360.data.entity.UserEntity;
+import br.com.lab360.task360.feature.Anexo.AnexosRepository;
+import br.com.lab360.task360.feature.User.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,6 +16,8 @@ public class QuadroService {
 
     @Autowired
     private QuadroRepository quadroRepository;
+    private UserRepository userRepository;
+    private AnexosRepository anexosRepository;
 
     public List<QuadroEntity> listarQuadros() {
         return quadroRepository.findAll();
