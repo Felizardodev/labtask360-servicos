@@ -1,4 +1,4 @@
-package br.com.lab360.task360.data.entity;
+package br.com.lab360.task360.data.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,6 +1,7 @@
 package br.com.lab360.task360.feature.User;
 
-import br.com.lab360.task360.data.entity.UserEntity;
+import br.com.lab360.task360.data.entities.UserEntity;
+import br.com.lab360.task360.data.repositories.UserRepository;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;

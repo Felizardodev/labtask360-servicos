@@ -1,6 +1,6 @@
 package br.com.lab360.task360.feature.Lista;
 
-import br.com.lab360.task360.data.entity.ListaEntity;
+import br.com.lab360.task360.data.entities.ListaEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package br.com.lab360.task360.feature.Atividade;
+package br.com.lab360.task360.data.repositories;
 
-import br.com.lab360.task360.data.entity.AtividadesEntity;
+import br.com.lab360.task360.data.entities.AtividadesEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

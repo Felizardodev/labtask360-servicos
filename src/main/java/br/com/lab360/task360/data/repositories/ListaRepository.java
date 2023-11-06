@@ -1,6 +1,6 @@
-package br.com.lab360.task360.feature.Lista;
+package br.com.lab360.task360.data.repositories;
 
-import br.com.lab360.task360.data.entity.ListaEntity;
+import br.com.lab360.task360.data.entities.ListaEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

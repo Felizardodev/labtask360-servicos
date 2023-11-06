@@ -1,11 +1,11 @@
-package br.com.lab360.task360.feature.User;
+package br.com.lab360.task360.data.repositories;
 
-import br.com.lab360.task360.data.entity.UserEntity;
-import br.com.lab360.task360.data.repositories.User;
+import br.com.lab360.task360.data.entities.UserEntity;
+//import br.com.lab360.task360.data.repositories.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
+//import org.springframework.data.jpa.repository.Query;
 
-import java.util.List;
+//import java.util.List;
 import java.util.Optional;
 
 public interface UserRepository extends JpaRepository<UserEntity, Long> {

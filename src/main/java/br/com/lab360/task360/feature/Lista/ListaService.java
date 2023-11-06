@@ -1,7 +1,8 @@
 package br.com.lab360.task360.feature.Lista;
 
-import br.com.lab360.task360.data.entity.ListaEntity;
-import br.com.lab360.task360.data.entity.QuadroEntity;
+import br.com.lab360.task360.data.entities.ListaEntity;
+import br.com.lab360.task360.data.entities.QuadroEntity;
+import br.com.lab360.task360.data.repositories.ListaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

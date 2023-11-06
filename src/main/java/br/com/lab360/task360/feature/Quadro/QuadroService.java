@@ -1,12 +1,10 @@
 package br.com.lab360.task360.feature.Quadro;
 
-import br.com.lab360.task360.data.entity.AnexosEntity;
-import br.com.lab360.task360.data.entity.QuadroEntity;
-import br.com.lab360.task360.data.entity.UserEntity;
-import br.com.lab360.task360.feature.Anexo.AnexosRepository;
-import br.com.lab360.task360.feature.User.UserRepository;
+import br.com.lab360.task360.data.entities.QuadroEntity;
+import br.com.lab360.task360.data.entities.UserEntity;
+import br.com.lab360.task360.data.repositories.QuadroRepository;
+import br.com.lab360.task360.data.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,7 +15,6 @@ public class QuadroService {
     @Autowired
     private QuadroRepository quadroRepository;
     private UserRepository userRepository;
-    private AnexosRepository anexosRepository;
 
     public List<QuadroEntity> listarQuadros() {
         return quadroRepository.findAll();
@@ -43,17 +40,6 @@ public class QuadroService {
             quadro.getMembros().add(user);
             quadroRepository.save(quadro);
         }
-    }
-
-    public AnexosEntity adicionarAnexo(Long quadroId, AnexosEntity anexos) {
-        QuadroEntity quadro = quadroRepository.findById(quadroId).orElse(null);
-
-        if (quadro != null) {
-                anexos.setQuadro(quadro);
-            return anexosRepository.save(anexos);
-        }
-
-        return null;
     }
 
     public QuadroEntity atualizarPorcentagemDeConclusao(Long boardId, int completarPorcentagem) {

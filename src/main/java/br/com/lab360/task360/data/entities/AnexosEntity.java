@@ -1,23 +1,21 @@
-package br.com.lab360.task360.data.entity;
+package br.com.lab360.task360.data.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
-@Table(name = "atividades")
+@Table(name= "anexos")
 @Getter
 @Setter
 
-public class AtividadesEntity {
+public class AnexosEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String nome;
-
-    private boolean completado;
+    private String url;
 
     @ManyToOne
     @JoinColumn(name = "quadro_id")

@@ -1,10 +1,11 @@
 package br.com.lab360.task360.feature.Anexo;
 
-import br.com.lab360.task360.data.entity.AnexosEntity;
+import br.com.lab360.task360.data.entities.AnexosEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import jakarta.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @RestController

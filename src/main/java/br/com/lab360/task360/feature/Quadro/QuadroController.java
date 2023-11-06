@@ -1,7 +1,6 @@
 package br.com.lab360.task360.feature.Quadro;
 
-import br.com.lab360.task360.data.entity.AnexosEntity;
-import br.com.lab360.task360.data.entity.QuadroEntity;
+import br.com.lab360.task360.data.entities.QuadroEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -13,11 +12,6 @@ public class QuadroController {
     @PostMapping("/{quadrodId}/membros/{userId}")
     public void adicionarMembroAoQuadro(@PathVariable Long quadrodId, @PathVariable Long userId) {
         quadroService.adicionarMembro(quadrodId, userId);
-    }
-
-    @PostMapping("/{quadrodId}/anexos")
-    public AnexosEntity adicionarAnexoAoQuadro(@PathVariable Long quadrodId, @RequestBody AnexosEntity anexos) {
-        return quadroService.adicionarAnexo(quadrodId, anexos);
     }
 
     @PutMapping("/{quadrodId}/completarPorcentagem")

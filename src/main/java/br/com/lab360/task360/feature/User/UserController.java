@@ -1,13 +1,12 @@
 package br.com.lab360.task360.feature.User;
 
-import br.com.lab360.task360.data.entity.UserEntity;
-import com.fasterxml.jackson.core.JsonProcessingException;
+import br.com.lab360.task360.data.entities.UserEntity;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
+
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
