@@ -41,14 +41,4 @@ public class QuadroService {
             quadroRepository.save(quadro);
         }
     }
-
-    public QuadroEntity atualizarPorcentagemDeConclusao(Long boardId, int completarPorcentagem) {
-        QuadroEntity quadro = quadroRepository.findById(boardId).orElse(null);
-
-        if (quadro != null) {
-            quadro.setCompletarporcentagem(completarPorcentagem);
-            return quadroRepository.save(quadro);
-        }
-        return null;
-    }
 }

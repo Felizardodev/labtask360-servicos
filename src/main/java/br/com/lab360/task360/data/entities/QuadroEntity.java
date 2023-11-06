@@ -21,14 +21,7 @@ public class QuadroEntity {
 
         private String descricao;
 
-        @OneToMany(mappedBy = "quadro", cascade = CascadeType.ALL)
-        private List<AtividadesEntity> atividades;
-
         private LocalDate data;
 
         private List<UserEntity> membros;
-
-        @OneToMany(mappedBy = "quadro", cascade = CascadeType.ALL)
-        private List<AtividadesEntity> anexos;
-        private int completarporcentagem;
     }
