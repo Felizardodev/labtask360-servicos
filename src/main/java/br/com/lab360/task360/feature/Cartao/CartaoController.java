@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/api/v1/cartoes")
+@RestController@RequestMapping("/api/v1/cartoes")
 
 public class CartaoController {
 
@@ -84,6 +83,5 @@ public class CartaoController {
     public CartaoEntity removerAnexo(@PathVariable Long id, @RequestBody String anexo) {
         return cartaoService.removerAnexo(id, anexo);
     }
-
 }
 
