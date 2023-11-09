@@ -16,7 +16,8 @@ trabalho.
 * Checklist de Atividades: Mantenha um registro completo de cada etapa efetuada.
 
 ## Tecnologias Utilizadas
-* ![JAVA](https://icons8.com.br/icon/GPfHz0SM85FX/logo-java-coffee-cup): Backend da aplicação é desenvolvido em Java para garantir desempenho e confiabilidade.
+* ![JAVA] 
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> : Backend da aplicação é desenvolvido em Java para garantir desempenho e confiabilidade.
 * ![SPRINGBOOT](https://icons8.com.br/icon/90519/logotipo-da-primavera): Utilizamos o Spring Boot para facilitar a configuração e desenvolvimento do
   aplicativo.
 * ![ORACLE](https://icons8.com.br/icon/8ljTDYUEydbJ/oracle-pl-sql): Utilizamos o Oracle como nosso sistema de gerenciamento de banco de dados.
