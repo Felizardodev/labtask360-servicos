@@ -17,10 +17,10 @@ trabalho.
 
 ## Tecnologias Utilizadas
 * ![JAVA](https://icons8.com.br/icon/GPfHz0SM85FX/logo-java-coffee-cup): Backend da aplicação é desenvolvido em Java para garantir desempenho e confiabilidade.
-* **Spring Boot**: Utilizamos o Spring Boot para facilitar a configuração e desenvolvimento do
+* ![SpringBoot](https://icons8.com.br/icon/90519/logotipo-da-primavera): Utilizamos o Spring Boot para facilitar a configuração e desenvolvimento do
   aplicativo.
 * **Hibernate**: Framework de mapeamento objeto-relacional para persistência de dados.
-* **Oracle Database**: Utilizamos o Oracle como nosso sistema de gerenciamento de banco de dados
+* ![Oracle](https://icons8.com.br/icon/8ljTDYUEydbJ/oracle-pl-sql): Utilizamos o Oracle como nosso sistema de gerenciamento de banco de dados
   para armazenar e recuperar informações de forma segura e escalável.
 * **JPA (Java Persistence API)**: Para facilitar a integração com o banco de dados e realizar
   operações de persistência.
