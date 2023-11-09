@@ -16,7 +16,7 @@ trabalho.
 * Checklist de Atividades: Mantenha um registro completo de cada etapa efetuada.
 
 ## Tecnologias Utilizadas
-* **Java**: Backend da aplicação é desenvolvido em Java para garantir desempenho e confiabilidade.
+* !**[JAVA]** (https://icons8.com.br/icon/GPfHz0SM85FX/logo-java-coffee-cup): Backend da aplicação é desenvolvido em Java para garantir desempenho e confiabilidade.
 * **Spring Boot**: Utilizamos o Spring Boot para facilitar a configuração e desenvolvimento do
   aplicativo.
 * **Hibernate**: Framework de mapeamento objeto-relacional para persistência de dados.
